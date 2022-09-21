@@ -1,0 +1,85 @@
+name: lawma
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.9.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  unicons: ^2.1.0
+  carousel_slider: ^4.1.1
+  http: ^0.13.5
+  url_launcher: 6.0.20
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+flutter_icons:
+  android: "laucher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  remove_alpha_ios: true
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts: 
+    - family: DM Sans
+      fonts: 
+        - asset: assets/fonts/DMSansMedium.ttf
+          weight: 500
+        - asset: assets/fonts/DMSansRegular.ttf
+          weight: 400
+    - family: IBM Plex Sans
+      fonts: 
+        - asset: assets/fonts/IBMPlexSansBold.ttf
+          weight: 700
+    - family: Lato
+      fonts: 
+        - asset: assets/fonts/LatoLight.ttf
+          weight: 300
+        - asset: assets/fonts/LatoBlack.ttf
+          weight: 900
+        - asset: assets/fonts/LatoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/LatoBold.ttf
+          weight: 700
+    - family: Raleway
+      fonts: 
+        - asset: assets/fonts/RalewayRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RalewayRomanExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/RalewayRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RalewaySemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RalewayRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RalewayRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RalewayBold.ttf
+          weight: 700
+        - asset: assets/fonts/RalewayMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RalewayRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratBold.ttf
+          weight: 700
